@@ -50,3 +50,7 @@ section {
     border: 2px solid #333;
     border-radius: 8px;
 }
+
+section ul {
+    padding-left: 20px;
+}
