@@ -28,6 +28,11 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
 h1, h2 {
     color: var(--primary-color);
 }
@@ -54,3 +59,24 @@ section {
 section ul {
     padding-left: 20px;
 }
+
+section h4 {
+    margin: 5px 0;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/*May use later*/
+/*@media (max-width: 600px) {*/
+/*    nav li {*/
+/*        display: block;*/
+/*        margin: 10px 0;*/
+/*    }*/
+
+/*    section {*/
+/*        margin: 10px;*/
+/*    }*/
+/*}*/
