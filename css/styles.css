@@ -2,20 +2,27 @@
     --main-bg-color: #f4f4f4;
     --primary-color: #333;
     --secondary-color: #ffcc00;
-    --padding: 20px;
+    --padding: 1.25em;
 }
+
+header {
+    text-align: center; /* Ensure the header, including nav, is centered */
+}
+
 
 body {
     font-family: 'Roboto', 'Arial', sans-serif;
     line-height: 1.6;
     background-color: var(--main-bg-color);
+    padding: 1%;
 }
 
 nav ul {
     list-style: none;
     text-align: center;
-    padding: 10px;
+    padding: 1em; /* Adjusted to em for fluidity */
     background-color: #333;
+    display: inline-block; /* Center-align navigation without shifting to the right */
 }
 
 nav li {
@@ -38,45 +45,48 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2em;
     font-weight: bold;
     text-align: center;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.75em;
     color: #555;
 }
 
 section {
-    margin: 20px;
-    padding: 20px;
+    margin: 2%;
+    padding: 2%;
     background-color: white;
-    border: 2px solid #333;
-    border-radius: 8px;
+    border: 0.125em solid #333;
+    border-radius: 0.5em;
 }
 
 section ul {
-    padding-left: 20px;
+    padding-left: 1.25em;
 }
 
 section h4 {
-    margin: 5px 0;
+    margin: 0.25em 0;
 }
 
 .contact-info {
     text-align: center;
-    margin: 20px 0;
+    margin: 2% 0;
 }
 
-/*May use later*/
-/*@media (max-width: 600px) {*/
-/*    nav li {*/
-/*        display: block;*/
-/*        margin: 10px 0;*/
-/*    }*/
+section img {
+    float: left;
+    margin-right: 1em;
+    max-width: 12em;
+    width: 100%;
+    height: auto;
+}
 
-/*    section {*/
-/*        margin: 10px;*/
-/*    }*/
-/*}*/
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
