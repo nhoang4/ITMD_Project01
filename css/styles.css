@@ -6,7 +6,7 @@
 }
 
 header {
-    text-align: center; /* Ensure the header, including nav, is centered */
+    text-align: center;
 }
 
 
@@ -22,7 +22,7 @@ nav ul {
     text-align: center;
     padding: 1em; /* Adjusted to em for fluidity */
     background-color: #333;
-    display: inline-block; /* Center-align navigation without shifting to the right */
+    display: inline-block;
 }
 
 nav li {
@@ -159,3 +159,5 @@ section::after {
 }
  /* May delete later */
 
+
+/* Final clean up */
