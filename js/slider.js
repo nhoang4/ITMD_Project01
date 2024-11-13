@@ -21,3 +21,5 @@ setInterval(nextSlide, slideInterval);
 
 // Show the first slide initially
 showSlide(currentSlideIndex);
+
+//Final check for slider decoration
