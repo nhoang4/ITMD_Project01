@@ -4,6 +4,7 @@ function initMap() {
         center: { lat: 41.8781, lng: -87.6298 }, // Center map on Chicago
     });
 
+    // Real Coordinates updated in array
     // Array of favorite places in Chicago
     const favoritePlaces = [
         {
