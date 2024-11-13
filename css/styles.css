@@ -90,6 +90,7 @@ section::after {
     clear: both;
 }
 
+/*Two CSS media here, one for tablet, one for mobile*/
 @media (max-width: 768px) {
     body {
         padding: 2%;
