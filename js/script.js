@@ -1,25 +1,3 @@
-// function initMap() {
-//     const map = new google.maps.Map(document.getElementById("map"), {
-//         zoom: 10,
-//         center: { lat: 41.8781, lng: -87.6298 }, // Chicago coordinates
-//     });
-//
-//     // Marker with Info Window
-//     const marker = new google.maps.Marker({
-//         position: { lat: 41.8781, lng: -87.6298 },
-//         map,
-//         title: "Chicago",
-//     });
-//
-//     const infoWindow = new google.maps.InfoWindow({
-//         content: "<h2>Chicago</h2><p>A city in Illinois known for its architecture and museums.</p>",
-//     });
-//
-//     marker.addListener("click", () => {
-//         infoWindow.open(map, marker);
-//     });
-// }
-
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 12,
@@ -72,3 +50,5 @@ function initMap() {
         });
     });
 }
+
+/* Validate JavaScript functionality and ensure error-free operation */
