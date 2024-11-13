@@ -90,7 +90,6 @@ section::after {
     clear: both;
 }
 
-
 @media (max-width: 768px) {
     body {
         padding: 2%;
@@ -150,11 +149,11 @@ section::after {
 
 /* Gallery (slider) image styling */
 .slider img {
-    width: 100%; /* Make image fill the slider container */
-    max-width: 50em; /* Increase maximum width for larger images (50em is 800px) */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensures the image covers the area without distortion */
-    border-radius: 0.5em; /* Optional: add rounded corners */
-    margin: 0 auto; /* Center the image */
+    width: 100%;
+    max-width: 50em;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.5em;
+    margin: 0 auto;
 }
 
